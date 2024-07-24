@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4a952b-83b8-464d-8a8b-92d1f9907f2a" name="Changes" comment="first program created">
-      <change afterPath="$PROJECT_DIR$/coding-practice/collections-practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-practice/data-manipulation-tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-practice/numpy-practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding-practice/pandas-practice.py" afterDir="false" />
+    <list default="true" id="7b4a952b-83b8-464d-8a8b-92d1f9907f2a" name="Changes" comment="files updated">
+      <change afterPath="$PROJECT_DIR$/coding-practice/list-comprehensions-dict-generator-exp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding-practice/titanic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titanic/gender_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titanic/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titanic/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding-practice/data-manipulation-tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding-practice/data-manipulation-tasks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +45,23 @@
     "Python.data-manipulation-tasks (1).executor": "Run",
     "Python.filtering-practice.executor": "Run",
     "Python.hello.executor": "Run",
+    "Python.list-comprehensions-dict-generator-exp.executor": "Run",
     "Python.numpy-practice.executor": "Run",
     "Python.pandas-practice.executor": "Run",
+    "Python.titanic.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/syeda/PycharmProjects/tuesday-interview/data",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.data-manipulation-tasks (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\syeda\PycharmProjects\tuesday-interview\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.titanic">
     <configuration name="collections-practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tuesday-interview" />
       <option name="ENV_FILES" value="" />
@@ -118,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numpy-practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="list-comprehensions-dict-generator-exp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tuesday-interview" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding-practice/numpy-practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding-practice/list-comprehensions-dict-generator-exp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas-practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="titanic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tuesday-interview" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +163,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding-practice/pandas-practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding-practice/titanic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.titanic" />
+        <item itemvalue="Python.list-comprehensions-dict-generator-exp" />
         <item itemvalue="Python.data-manipulation-tasks (1)" />
         <item itemvalue="Python.data-manipulation-tasks" />
         <item itemvalue="Python.collections-practice" />
-        <item itemvalue="Python.numpy-practice" />
-        <item itemvalue="Python.pandas-practice" />
       </list>
     </recent_temporary>
   </component>
@@ -212,11 +222,28 @@
       <option name="project" value="LOCAL" />
       <updated>1721841790414</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="files updated">
+      <option name="closed" value="true" />
+      <created>1721843095814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721843095814</updated>
+    </task>
+    <task id="LOCAL-00005" summary="files updated">
+      <option name="closed" value="true" />
+      <created>1721843110013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721843110013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first program created" />
-    <option name="LAST_COMMIT_MESSAGE" value="first program created" />
+    <MESSAGE value="files updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="files updated" />
   </component>
 </project>
